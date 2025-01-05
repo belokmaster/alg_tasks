@@ -1,4 +1,6 @@
-func generate(numRows int) [][]int {
+package main
+
+func generatePascal(numRows int) [][]int {
 	var answer [][]int
 	answer = append(answer, []int{1})
 	if numRows == 1 {
