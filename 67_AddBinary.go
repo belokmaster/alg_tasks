@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"slices"
 )
 
@@ -69,8 +68,10 @@ func addBinary(a string, b string) string {
 	return r
 }
 
+/*
 func main() {
 	// Пример использования
 	fmt.Println(addBinary("11", "1"))      // Вывод: "100"
 	fmt.Println(addBinary("1010", "1011")) // Вывод: "10101"
 }
+*/

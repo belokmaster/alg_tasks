@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // search ищет заданное значение target в отсортированном и возможно повёрнутом массиве nums.
 // Возвращает индекс найденного элемента или -1, если элемент не найден.
 func search(nums []int, target int) int {
@@ -40,6 +38,7 @@ func search(nums []int, target int) int {
 	return -1
 }
 
+/*
 func main() {
 	// Примеры использования функции search
 	nums := []int{4, 5, 6, 7, 0, 1, 2}
@@ -58,3 +57,4 @@ func main() {
 	result = search(nums, target)
 	fmt.Printf("Индекс элемента %d: %d\n", target, result)
 }
+*/

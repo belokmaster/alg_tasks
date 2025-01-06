@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -44,6 +43,7 @@ func reverse(x int) int {
 	return ans
 }
 
+/*
 func main() {
 	// Тестовые случаи для проверки функции reverse
 	testCases := []int{123, -123, 120, 0, int(math.Pow(2, 31)), -int(math.Pow(2, 31))}
@@ -52,3 +52,4 @@ func main() {
 		fmt.Printf("Original: %d, Reversed: %d\n", testCase, reverse(testCase))
 	}
 }
+*/

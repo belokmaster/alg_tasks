@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // shiftingLetters применяет смещения к строке s на основе заданных операций shifts.
 // s — исходная строка, shifts — массив операций, где каждая операция задаётся
 // диапазоном [start, end] и направлением (1 — вправо, 0 — влево).
@@ -39,6 +35,7 @@ func shiftingLetters(s string, shifts [][]int) string {
 	return string(result)
 }
 
+/*
 func main() {
 	// Пример 1: простая строка и смещения
 	s := "abc"
@@ -60,3 +57,4 @@ func main() {
 	shifts = [][]int{}
 	fmt.Println("Результат:", shiftingLetters(s, shifts)) // Ожидаемый результат: "hello"
 }
+*/

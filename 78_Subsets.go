@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // Функция для генерации всех подмножеств
 func subsets(nums []int) [][]int {
 	// Инициализируем результат с пустым подмножеством
@@ -28,8 +26,10 @@ func subsets(nums []int) [][]int {
 	return result
 }
 
+/*
 func main() {
 	nums := []int{1, 2, 3}
 	subsetsResult := subsets(nums)
 	fmt.Println(subsetsResult)
 }
+*/

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // Функция reverseBits переворачивает биты числа num.
 func reverseBits(num uint32) uint32 {
 	var result uint32 // Инициализируем переменную для хранения перевёрнутого числа
@@ -20,6 +18,7 @@ func reverseBits(num uint32) uint32 {
 	return result // Возвращаем перевёрнутое число
 }
 
+/*
 func main() {
 	// Тестируем функцию с несколькими числами
 	testCases := []uint32{43261596, 4294967293} // Пример чисел для тестирования
@@ -28,3 +27,4 @@ func main() {
 		fmt.Printf("Original: %d, Reversed: %d\n", num, reverseBits(num))
 	}
 }
+*/

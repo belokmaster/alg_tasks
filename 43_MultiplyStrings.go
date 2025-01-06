@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -56,6 +55,8 @@ func multiply(num1 string, num2 string) string {
 	return result
 }
 
+/*
 func main() {
 	fmt.Println(multiply("123", "456")) // Выведет: "56088"
 }
+*/
