@@ -20,15 +20,15 @@ func findWordsContaining(words []string, x byte) []int {
 }
 
 func findWordsContaining1(words []string, x byte) []int {
-	var res []int
+	var ans []int
 	for i, word := range words {
 		for _, c := range word {
 			if c == rune(x) {
-				res = append(res, i)
+				ans = append(ans, i)
 				break
 			}
 		}
 	}
 
-	return res
+	return ans
 }
