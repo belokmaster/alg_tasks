@@ -7,9 +7,11 @@ func maximumWealth(accounts [][]int) int {
 		for j := 0; j < len(accounts[i]); j++ {
 			sum += accounts[i][j]
 		}
+
 		if sum > ans {
 			ans = sum
 		}
 	}
+
 	return ans
 }
