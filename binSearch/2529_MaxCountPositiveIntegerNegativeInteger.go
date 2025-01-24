@@ -1,5 +1,6 @@
 package main
 
+// бин поиск первого положительного числа
 func findFirstNonNegative(nums []int) int {
 	left := 0
 	right := len(nums) - 1

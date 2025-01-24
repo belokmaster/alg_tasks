@@ -19,15 +19,14 @@ func arrangeCoins(n int) int {
 	return right
 }
 
-/*
-func arrangeCoins(n int) int {
-    row := 0
-    coins := 1
-    for coins <= n {
-        n -= coins
-        coins++
-        row++
-    }
-    return row
+// через цикл
+func arrangeCoins1(n int) int {
+	row := 0
+	coins := 1
+	for coins <= n {
+		n -= coins
+		coins++
+		row++
+	}
+	return row
 }
-*/
