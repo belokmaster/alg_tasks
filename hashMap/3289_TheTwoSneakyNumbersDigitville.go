@@ -8,7 +8,7 @@ func getSneakyNumbers(nums []int) []int {
 	arr := make([]bool, len(nums)+1)
 
 	for _, num := range nums {
-		if arr[num] == true {
+		if arr[num] {
 			ans = append(ans, num)
 		}
 

@@ -8,7 +8,7 @@ func findDuplicates(nums []int) []int {
 	ans := []int{}
 
 	for _, num := range nums {
-		if arr[num] == true {
+		if arr[num] {
 			ans = append(ans, num)
 		}
 		arr[num] = true
