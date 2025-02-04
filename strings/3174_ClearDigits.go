@@ -11,6 +11,7 @@ func digitInd(s string) int {
 	return -1
 }
 
+// конкатенация строк дорогая операция. лучше использовать стек
 func clearDigits(s string) string {
 	x := digitInd(s)
 	for x != -1 {
