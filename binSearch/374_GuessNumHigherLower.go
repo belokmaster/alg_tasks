@@ -13,12 +13,13 @@ func guess(num int) int {
 }
 
 func guessNumber(n int) int {
-	var left int = 0
-	var right int = n
+	left := 0
+	right := n
 
 	for left <= right {
 		mid := (left + right) / 2
 		result := guess(mid)
+
 		if result == 0 {
 			return mid
 		} else if result > 0 {
