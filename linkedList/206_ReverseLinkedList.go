@@ -12,8 +12,8 @@ func reverseList(head *ListNode) *ListNode {
 	current := head       // указатель на голову списка
 
 	for current != nil {
-		next := current.Next
-		current.Next = newList
+		next := current.Next // след узел.
+		current.Next = newList 
 		newList = current
 		current = next
 	}
