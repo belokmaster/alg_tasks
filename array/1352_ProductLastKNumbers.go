@@ -1,5 +1,6 @@
 package main
 
+/*
 type ProductOfNumbers struct {
 	products []int
 }
@@ -24,6 +25,7 @@ func (this *ProductOfNumbers) GetProduct(k int) int {
 
 	return this.products[len(this.products)-1] / this.products[len(this.products)-k-1]
 }
+*/
 
 /**
  * Your ProductOfNumbers object will be instantiated and called as such:
