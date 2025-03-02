@@ -9,7 +9,7 @@ func findDifference(nums1 []int, nums2 []int) [][]int {
 
 	lenNums1 := 0
 	for _, num := range nums1 {
-		if mapNums1[num] == true {
+		if mapNums1[num] {
 			continue
 		}
 		mapNums1[num] = true
@@ -20,7 +20,7 @@ func findDifference(nums1 []int, nums2 []int) [][]int {
 
 	lenNums2 := 0
 	for _, num := range nums2 {
-		if mapNums2[num] == true {
+		if mapNums2[num] {
 			continue
 		}
 		mapNums2[num] = true
