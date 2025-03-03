@@ -1,5 +1,6 @@
 package main
 
+/*
 type Node struct {
 	val  int
 	next *Node
@@ -83,7 +84,7 @@ func (this *MyLinkedList) DeleteAtIndex(index int) {
 	}
 	this.size--
 }
-
+/*
 /**
  * Your MyLinkedList object will be instantiated and called as such:
  * obj := Constructor();
@@ -92,4 +93,4 @@ func (this *MyLinkedList) DeleteAtIndex(index int) {
  * obj.AddAtTail(val);
  * obj.AddAtIndex(index,val);
  * obj.DeleteAtIndex(index);
- */
+*/
