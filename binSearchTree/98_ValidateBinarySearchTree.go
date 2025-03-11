@@ -2,12 +2,6 @@ package main
 
 import "math"
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func recursiveValid(node *TreeNode, min, max int) bool {
 	if node == nil {
 		return true

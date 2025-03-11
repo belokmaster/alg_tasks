@@ -2,14 +2,12 @@ package main
 
 import "strconv"
 
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
 func bfs(root *TreeNode) []string {
 	queue := []*TreeNode{root}
 	nodes := []string{}
