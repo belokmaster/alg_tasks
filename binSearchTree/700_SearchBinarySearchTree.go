@@ -32,3 +32,19 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 
 	return nil
 }
+
+func searchBSTRec(root *TreeNode, val int) *TreeNode {
+	if root == nil {
+		return nil
+	}
+
+	if root.Val == val {
+		return root
+	}
+
+	if val < root.Val {
+		return searchBSTRec(root.Left, val)
+	} else {
+		return searchBSTRec(root.Right, val)
+	}
+}
