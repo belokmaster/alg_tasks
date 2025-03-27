@@ -1,5 +1,6 @@
 package main
 
+/*
 type MinStack struct {
 	stack    []int
 	minStack []int
@@ -41,6 +42,7 @@ func (this *MinStack) GetMin() int {
 	}
 	return this.minStack[len(this.minStack)-1]
 }
+*/
 
 /**
  * Your MinStack object will be instantiated and called as such:

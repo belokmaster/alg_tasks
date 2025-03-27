@@ -21,9 +21,8 @@ func reversePrefix(word string, ch byte) string {
 		lastWord += string(stack[i])
 	}
 
-	if flag == true {
+	if flag {
 		return word
-	} else {
-		return lastWord + word[ind+1:]
 	}
+	return lastWord + word[ind+1:]
 }
