@@ -1,11 +1,5 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 // BFS
 func maxDepthIterative(root *TreeNode) int {
 	if root == nil {
